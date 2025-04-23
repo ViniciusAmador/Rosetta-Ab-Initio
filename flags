@@ -1,0 +1,8 @@
+-in:file:fasta structure.fasta
+-in:file:frag3 fragments_3mers
+-in:file:frag9 fragments_9mers
+-in:file:psipred_ss2 HevME1.psipred.ss2
+-abinitio:relax
+-out:nstruct 10
+-out:file:silent abinitio_output.out
+-use_filters true

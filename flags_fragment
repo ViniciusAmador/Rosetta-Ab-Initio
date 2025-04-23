@@ -1,0 +1,6 @@
+-fasta structure.fasta
+-out:file:frag_prefix output_fragments
+-psipred_ss2 HevME1.psipred.ss2
+-frags:frag_sizes 3 9
+-frags:n_frags 200
+-frags:vall vall.dat
